@@ -10,4 +10,7 @@
 
 @interface WXSPhotoBrowserItemView : UIView
 
+@property (nonatomic, strong) UIScrollView *zoomimgView;
+
+
 @end

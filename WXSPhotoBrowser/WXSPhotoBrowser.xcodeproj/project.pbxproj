@@ -18,6 +18,7 @@
 		5E77C4AE1D573B26009EBB28 /* WXSPhotoBrowser in Resources */ = {isa = PBXBuildFile; fileRef = 5E77C4AD1D573B26009EBB28 /* WXSPhotoBrowser */; };
 		5E77C4B11D573B58009EBB28 /* WXSPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E77C4B01D573B58009EBB28 /* WXSPhotoBrowser.m */; };
 		5E8D0B001D588837007578D6 /* WXSPhotoBrowserItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8D0AFF1D588837007578D6 /* WXSPhotoBrowserItemView.m */; };
+		5E8D0B041D58A68B007578D6 /* WXSPhotoZoomingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8D0B031D58A68B007578D6 /* WXSPhotoZoomingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,8 @@
 		5E77C4B01D573B58009EBB28 /* WXSPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXSPhotoBrowser.m; sourceTree = "<group>"; };
 		5E8D0AFE1D588837007578D6 /* WXSPhotoBrowserItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXSPhotoBrowserItemView.h; sourceTree = "<group>"; };
 		5E8D0AFF1D588837007578D6 /* WXSPhotoBrowserItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXSPhotoBrowserItemView.m; sourceTree = "<group>"; };
+		5E8D0B021D58A68B007578D6 /* WXSPhotoZoomingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXSPhotoZoomingView.h; sourceTree = "<group>"; };
+		5E8D0B031D58A68B007578D6 /* WXSPhotoZoomingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXSPhotoZoomingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +115,13 @@
 				5E77C47D1D572371009EBB28 /* AppDelegate.h */,
 				5E77C47E1D572371009EBB28 /* AppDelegate.m */,
 				5E77C4801D572371009EBB28 /* ViewController.h */,
+				5E77C4811D572371009EBB28 /* ViewController.m */,
 				5E77C4AF1D573B58009EBB28 /* WXSPhotoBrowser.h */,
 				5E77C4B01D573B58009EBB28 /* WXSPhotoBrowser.m */,
 				5E8D0AFE1D588837007578D6 /* WXSPhotoBrowserItemView.h */,
 				5E8D0AFF1D588837007578D6 /* WXSPhotoBrowserItemView.m */,
-				5E77C4811D572371009EBB28 /* ViewController.m */,
+				5E8D0B021D58A68B007578D6 /* WXSPhotoZoomingView.h */,
+				5E8D0B031D58A68B007578D6 /* WXSPhotoZoomingView.m */,
 				5E77C4AD1D573B26009EBB28 /* WXSPhotoBrowser */,
 				5E77C4831D572371009EBB28 /* Main.storyboard */,
 				5E77C4861D572371009EBB28 /* Assets.xcassets */,
@@ -284,6 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E8D0B041D58A68B007578D6 /* WXSPhotoZoomingView.m in Sources */,
 				5E8D0B001D588837007578D6 /* WXSPhotoBrowserItemView.m in Sources */,
 				5E77C4B11D573B58009EBB28 /* WXSPhotoBrowser.m in Sources */,
 				5E77C4821D572371009EBB28 /* ViewController.m in Sources */,
